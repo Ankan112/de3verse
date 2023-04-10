@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Akira Expanded';
+  src: url('../../Akira\ Expanded\ Demo.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('https://fe-trt6-77i4ecikg-karar189.vercel.app/static/media/bg-ln.1c101b90.svg');
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.font-akira {
+  font-family: 'Akira Expanded', sans-serif;
+}
+
+.akira-white {
+  font-family: 'Akira Expanded', sans-serif;
+  color: white;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
