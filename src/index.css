@@ -33,3 +33,18 @@ body {
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }
+
+.main-btn {
+  border-radius: 0px 30px;
+  background: #9747ff;
+  padding: 10px 130px;
+  color: white;
+  font-weight: 500;
+}
+
+.sub-title-gradient {
+  background: linear-gradient(90deg, #ffff, #caa0ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
