@@ -33,3 +33,25 @@ body {
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }
+
+.main-btn {
+  border-radius: 0px 30px;
+  background: #9747ff;
+  padding: 10px 100px;
+  color: white;
+  font-weight: 500;
+}
+
+.sub-title-gradient {
+  background: linear-gradient(90deg, #ffff, #caa0ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.header-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images//assets/header.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
