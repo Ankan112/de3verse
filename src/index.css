@@ -50,8 +50,27 @@ body {
 }
 
 .header-bg {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images//assets/header.png');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/assets/header.png');
   background-position: center;
   background-repeat: no-repeat;
+  height: 110vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.banner-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/assets/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
+  width: 100%;
+}
+
+.banner-title-gradient {
+  background: linear-gradient(89.07deg, #FFFFFF 0.36%, #DBACF1 27.74%, #A3FFF4 53.57%, #6A94FF 75.27%, #FFFFFF 99.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
 }
