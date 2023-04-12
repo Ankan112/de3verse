@@ -7,10 +7,12 @@ import Avatar from '../../Components/Avatar/Avatar';
 import Header from '../../Components/Header/Header';
 import Map from '../../Components/Map/Map';
 import HeaderCard from '../../Components/HeaderCard/HeaderCard';
+import Banner from '../../Components/Banner/Banner';
 
 const Dashboard = () => {
     return (
         <div>
+            <Banner></Banner>
             <HeaderCard></HeaderCard>
             <Avatar></Avatar>
             <Header></Header>
